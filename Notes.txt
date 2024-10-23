@@ -1,0 +1,3 @@
+ansible-playbook main.yml -e SERVER=db --ask-vault-pass 
+ansible-playbook main.yml -e SERVER=be --ask-vault-pass
+ansible-playbook main.yml -e SERVER=fe --ask-vault-pass
